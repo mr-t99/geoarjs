@@ -37,8 +37,8 @@ function staticLoadPlaces() {
         {
             name: 'nha',
             location: {
-                lat: 10.987185,
-                lng: 106.716261,
+                lat: 10.987490,
+                lng: 106.716461,
             }
         },
     ];
