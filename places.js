@@ -41,6 +41,13 @@ function staticLoadPlaces() {
                 lng: 106.716461,
             }
         },
+        {
+            name: 'san truong',
+            location: {
+                lat: 10.990250364684542,
+                lng: 106.66447880389927,
+            }
+        },
     ];
 }
 
