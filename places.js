@@ -34,6 +34,13 @@ function staticLoadPlaces() {
                 lng: 106.716261,
             }
         },
+        {
+            name: 'nha',
+            location: {
+                lat: 10.987185,
+                lng: 106.716261,
+            }
+        },
     ];
 }
 
