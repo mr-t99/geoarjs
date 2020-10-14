@@ -3,7 +3,7 @@ window.onload = () => {
 
     let places = staticLoadPlaces();
     console.log(places);
-    // return renderPlaces(places);
+    return renderPlaces(places);
 
     // let method = 'dynamic';
 
