@@ -74,7 +74,7 @@ function renderPlaces(places) {
         icon.setAttribute('src', './map-marker.png');
 
 
-        icon.setAttribute('scale', '30, 30, 30');
+        icon.setAttribute('scale', '15, 15, 15');
 
         icon.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
@@ -86,7 +86,7 @@ function renderPlaces(places) {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
         });
 
-//         scene.appendChild(text);
+        scene.appendChild(text);
         scene.appendChild(icon);
     });
 }
