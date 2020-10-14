@@ -47,10 +47,10 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         // add place name
-//         let text = document.createElement('a-link');
-//         text.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
-//         text.setAttribute('title', place.name);
-//         text.setAttribute('scale', '10 10 10');
+        let text = document.createElement('a-link');
+        text.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        text.setAttribute('title', place.name);
+        text.setAttribute('scale', '10 10 10');
 
 
         // add place icon
@@ -68,9 +68,9 @@ function renderPlaces(places) {
 
 
 
-//         text.addEventListener('loaded', () => {
-//             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
-//         });
+        text.addEventListener('loaded', () => {
+            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
+        });
 
 //         scene.appendChild(text);
         scene.appendChild(icon);
